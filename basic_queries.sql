@@ -1,0 +1,1 @@
+-- SELECT * FROM read_csv_auto('C:/Data/Birds/ebird_data.txt', strict_mode=false) LIMIT 10;
