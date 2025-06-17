@@ -1,0 +1,48 @@
+┌─────────┬───────────────┬──────────────┐
+│ season  │ BREEDING CODE │ observations │
+├─────────┼───────────────┼──────────────┤
+│ Fall    │ NB            │           21 │
+│ Fall    │ CN            │           19 │
+│ Fall    │ ON            │            6 │
+│ Spring  │ NB            │          190 │
+│ Spring  │ ON            │          169 │
+│ Spring  │ CN            │          120 │
+│ Summer  │ FL            │           38 │
+│ Summer  │ ON            │           17 │
+│ Summer  │ FY            │            9 │
+│ Winter  │ NB            │           75 │
+│ Winter  │ CN            │           52 │
+│ Winter  │ ON            │           31 │
+└─────────┴───────────────┴──────────────┘
+
+this is the output for the breeding codes for the yellow billed magpie. 
+It shows the top 3 breeding codes for each season. 
+
+Yellow-billed Magpie Seasonal Breeding Patterns
+Fall (Sep-Nov)
+
+NB (21) - Nest Building: Constructing new nests
+CN (19) - Carrying Nesting Material: Gathering twigs, mud for nests
+ON (6) - Occupied Nest: Active nests with incubating parents
+
+Spring (Mar-May) - Peak Breeding Season
+
+NB (190) - Nest Building: Major nest construction activity
+ON (169) - Occupied Nest: High number of active nests
+CN (120) - Carrying Nesting Material: Intensive material gathering
+
+Summer (Jun-Aug) - Raising Young
+
+FL (38) - Recently Fledged Young: Young birds just left nest
+ON (17) - Occupied Nest: Some continued nesting
+FY (9) - Feeding Young: Adults feeding dependent fledglings
+
+Winter (Dec-Feb) - Unexpected Activity
+
+NB (75) - Nest Building: Surprising winter nest construction
+CN (52) - Carrying Nesting Material: Winter material gathering
+ON (31) - Occupied Nest: Some winter nesting activity
+
+Key Finding: Spring shows peak breeding (479 total observations), but 
+significant winter activity (158 observations) suggests possible 
+year-round breeding or cache-building behavior.
