@@ -15,6 +15,7 @@
 │ Winter  │ ON            │           31 │
 └─────────┴───────────────┴──────────────┘
 
+(note: This query aggregates ALL observations from 2015-2025)
 this is the output for the breeding codes for the yellow billed magpie. 
 It shows the top 3 breeding codes for each season. 
 
