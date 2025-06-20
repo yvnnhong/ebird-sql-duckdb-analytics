@@ -1,1 +1,0 @@
-The yellow-billed magpie is endemic to California, meaning that it is found nowhere else except for in california. Due to this nature of it, I am interested in writing queries on it. 

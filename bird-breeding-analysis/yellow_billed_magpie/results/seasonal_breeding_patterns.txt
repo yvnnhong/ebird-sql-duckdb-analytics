@@ -1,0 +1,65 @@
+# Yellow-billed Magpie Seasonal Breeding Patterns
+# Query executed: 2025-06-20
+# Data source: eBird observations 2015-2025
+# Total breeding observations: 1,130 records
+# Geographic scope: California counties
+
+## Top 3 Breeding Codes by Season
+┌─────────┬───────────────┬──────────────┐
+│ season  │ BREEDING CODE │ observations │
+├─────────┼───────────────┼──────────────┤
+│ Fall    │ NB            │           21 │
+│ Fall    │ CN            │           19 │
+│ Fall    │ ON            │            6 │
+│ Spring  │ NB            │          190 │
+│ Spring  │ ON            │          169 │
+│ Spring  │ CN            │          120 │
+│ Summer  │ FL            │           38 │
+│ Summer  │ ON            │           17 │
+│ Summer  │ FY            │            9 │
+│ Winter  │ NB            │           75 │
+│ Winter  │ CN            │           52 │
+│ Winter  │ ON            │           31 │
+└─────────┴───────────────┴──────────────┘
+
+## Seasonal Totals (Top 3 codes only)
+- Spring: 479 observations (42.4% of all breeding activity)
+- Winter: 158 observations (14.0% of all breeding activity)
+- Summer: 64 observations (5.7% of all breeding activity)
+- Fall: 46 observations (4.1% of all breeding activity)
+- Top 3 codes represent: 747 observations (66.1% of total)
+
+## All Breeding Codes Distribution (2015-2025)
+┌───────────────┬───────────┬────────────┐
+│ BREEDING CODE │ Frequency │ Percentage │
+├───────────────┼───────────┼────────────┤
+│ NB            │       294 │      26.02%│
+│ ON            │       223 │      19.73%│
+│ CN            │       200 │      17.70%│
+│ FL            │       142 │      12.57%│
+│ N             │       114 │      10.09%│
+│ FY            │        41 │       3.63%│
+│ CF            │        26 │       2.30%│
+│ C             │        25 │       2.21%│
+│ T             │        16 │       1.42%│
+│ UN            │        16 │       1.42%│
+│ NY            │        15 │       1.33%│
+│ A             │         8 │       0.71%│
+│ M             │         6 │       0.53%│
+│ DD            │         1 │       0.09%│
+│ PE            │         1 │       0.09%│
+│ NE            │         1 │       0.09%│
+│ S7            │         1 │       0.09%│
+└───────────────┴───────────┴────────────┘
+
+## Data Quality Notes
+- Filters applied: BREEDING CODE IS NOT NULL AND TRIM(BREEDING CODE) != ''
+- Excluded codes: F, H, S, P (non-breeding behaviors)
+- Species filter: LOWER(COMMON NAME) LIKE '%yellow-billed magpie%'
+- Date range: 2015-01-01 to 2025-12-31
+- Season definitions: Spring (Mar-May), Summer (Jun-Aug), Fall (Sep-Nov), Winter (Dec-Feb)
+
+## Validation Notes
+- All breeding codes total: 1,130 observations (Yellow-billed Magpie only)
+- Top 3 per season total: 747 observations (66.1% coverage)
+- Remaining 383 observations distributed across 11 other breeding codes
