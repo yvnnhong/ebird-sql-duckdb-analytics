@@ -79,3 +79,16 @@ FROM range_analysis ra
 JOIN county_summary cs ON ra.COUNTY = cs.COUNTY AND ra.habitat_type = cs.habitat_type
 GROUP BY ra.COUNTY, ra.habitat_type, ra.avg_success_rate, ra.years_active, ra.range_status, ra.first_year, ra.last_year
 ORDER BY ra.avg_success_rate DESC, total_obs DESC;
+
+-- Validate all 6 counties with 0% success rates
+SELECT 
+    COUNTY,
+    "BREEDING CODE",
+    COUNT(*) as observations
+FROM read_csv_auto('C:/Data/Birds/ebird_observation_data.txt', max_line_size=25000000, strict_mode=false, ignore_errors=true)
+WHERE "COMMON NAME" = 'Yellow-billed Magpie'
+    AND "BREEDING CODE" IS NOT NULL
+    AND "BREEDING CODE" != ''
+    AND COUNTY IN ('Butte', 'Solano', 'Amador', 'Yuba', 'Calaveras', 'Madera')
+GROUP BY COUNTY, "BREEDING CODE"
+ORDER BY COUNTY, "BREEDING CODE";
