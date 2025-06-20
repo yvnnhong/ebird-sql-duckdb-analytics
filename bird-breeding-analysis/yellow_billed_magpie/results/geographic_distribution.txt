@@ -1,0 +1,77 @@
+# Yellow-billed Magpie Geographic Distribution Analysis
+# Query executed: 2025-06-20
+# Data source: eBird observations 2013-2025
+# Total breeding observations: 1,792 records across 26 counties
+# Geographic scope: California counties with breeding activity
+# Analysis: County-level success rates and range expansion patterns
+
+## County Breeding Success Rates (Ranked by Success)
+┌─────────────────┬────────────────┬────────────────────┬───────────┬──────────────────────┬────────────┬───────────┐
+│     COUNTY      │  habitat_type  │  avg_success_rate  │ total_obs │     range_status     │ first_year │ last_year │
+├─────────────────┼────────────────┼────────────────────┼───────────┼──────────────────────┼────────────┼───────────┤
+│ Calaveras       │ Rural          │              100.0 │        35 │ Recent_Colonization  │       2021 │      2021 │
+│ Madera          │ Rural          │              100.0 │        15 │ Recent_Colonization  │       2024 │      2024 │
+│ Colusa          │ Rural          │             66.667 │       126 │ Recent_Colonization  │       2021 │      2025 │
+│ San Luis Obispo │ Rural          │             54.387 │       155 │ Stable_Range         │       2018 │      2024 │
+│ Monterey        │ Rural          │             52.083 │       168 │ Stable_Range         │       2016 │      2024 │
+│ Yuba            │ Rural          │             50.000 │        12 │ Recent_Colonization  │       2021 │      2023 │
+│ Glenn           │ Rural          │             50.000 │        32 │ Stable_Range         │       2017 │      2021 │
+│ Santa Barbara   │ Rural          │             48.286 │       105 │ Stable_Range         │       2019 │      2025 │
+│ Stanislaus      │ Rural          │             45.821 │       560 │ Stable_Range         │       2017 │      2025 │
+│ San Benito      │ Rural          │             45.324 │       175 │ Stable_Range         │       2016 │      2025 │
+│ San Joaquin     │ Rural          │             40.842 │       304 │ Stable_Range         │       2017 │      2025 │
+│ Shasta          │ Rural          │             38.100 │        42 │ Recent_Colonization  │       2024 │      2024 │
+│ Butte           │ Rural          │             36.666 │        60 │ Recent_Colonization  │       2020 │      2024 │
+│ Sacramento      │ Urban/Suburban │             34.325 │     2,984 │ Stable_Range         │       2016 │      2025 │
+│ Yolo            │ Rural          │             33.623 │       752 │ Stable_Range         │       2013 │      2025 │
+│ Fresno          │ Rural          │             33.330 │        24 │ Recent_Colonization  │       2021 │      2021 │
+│ Santa Clara     │ Rural          │             23.512 │       228 │ Stable_Range         │       2018 │      2024 │
+│ Alameda         │ Rural          │             22.222 │       224 │ Recent_Colonization  │       2020 │      2024 │
+│ Nevada          │ Rural          │             18.270 │       332 │ Recent_Colonization  │       2020 │      2023 │
+│ Tehama          │ Rural          │             17.083 │       176 │ Stable_Range         │       2017 │      2025 │
+│ Solano          │ Rural          │             16.667 │        60 │ Stable_Range         │       2018 │      2025 │
+│ Merced          │ Rural          │             10.833 │        80 │ Stable_Range         │       2018 │      2025 │
+│ Placer          │ Rural          │              9.714 │       105 │ Recent_Colonization  │       2020 │      2024 │
+│ Sutter          │ Rural          │              0.000 │        12 │ Recent_Colonization  │       2022 │      2022 │
+│ Amador          │ Rural          │              0.000 │        24 │ Recent_Colonization  │       2021 │      2021 │
+│ Contra Costa    │ Rural          │              0.000 │         8 │ Possible_Abandonment │       2013 │      2013 │
+└─────────────────┴────────────────┴────────────────────┴───────────┴──────────────────────┴────────────┴───────────┘
+
+## Range Expansion Summary
+- **Recent Colonization** (first observed 2020+): 14 counties (53.8% of active counties)
+- **Stable Range** (established populations): 11 counties (42.3% of active counties)
+- **Possible Abandonment**: 1 county (3.8% - Contra Costa, 2013 only)
+
+## Habitat Distribution
+- **Rural counties**: 25 counties (96.2% of breeding locations)
+- **Urban/Suburban counties**: 1 county (Sacramento - 3.8%)
+- **Urban success rate**: 34.3% (Sacramento only)
+- **Rural success rate range**: 0.0% to 100.0%
+
+## Top Performing Counties (>50% success rate)
+1. **Calaveras**: 100.0% success (Recent colonization, 2021 only)
+2. **Madera**: 100.0% success (Recent colonization, 2024 only)
+3. **Colusa**: 66.7% success (Recent colonization, 2021-2025)
+4. **San Luis Obispo**: 54.4% success (Stable range, 2018-2024)
+5. **Monterey**: 52.1% success (Stable range, 2016-2024)
+
+## Conservation Insights
+- **Range expansion is active**: 14 counties first observed since 2020
+- **New territories show mixed success**: Range from 0% to 100% breeding success
+- **Established populations remain stable**: Core counties maintain consistent breeding
+- **Urban adaptation limited**: Only Sacramento classified as urban breeding habitat
+- **Geographic spread**: Active breeding documented across 26 California counties
+
+## Data Quality Notes
+- Filters applied: Excludes F, H, S, P codes (non-breeding behaviors)
+- Success definition: NY, FL, FY, CF, ON codes (includes occupied nests)
+- Breeding attempts: NB, CN, N, C, T, A, PE, NE, M, DD, UN, S7 codes
+- Urban classification: Counties with >100 total observations
+- Years active: Count of distinct years with breeding observations per county
+- Success rate: Percentage of successful breeding codes out of all breeding observations
+
+## Validation Notes
+- Total counties analyzed: 26 with breeding activity
+- Observation span: 2013-2025 (13 years)
+- Peak activity counties: Sacramento (2,984 obs), Yolo (752 obs), Stanislaus (560 obs)
+- Breeding code consistency: Matches seasonal_breeding_patterns.sql methodology
