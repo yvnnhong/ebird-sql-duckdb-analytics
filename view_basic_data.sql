@@ -14,6 +14,7 @@ SELECT * FROM read_csv_auto('C:/Data/Birds/false_random_data.txt', strict_mode=f
 SELECT * FROM read_csv_auto('C:/Data/Birds/ebird_observation_data.txt', strict_mode=false) LIMIT 10;
 
 -- creating a temporary table to view the column headers/data categories for the REAL table
+-- .mode column (run this first so that no columns will be hidden)
 CREATE TEMPORARY TABLE ebird_temp AS
 SELECT * FROM read_csv_auto('C:/Data/Birds/ebird_observation_data.txt', strict_mode=false)
 LIMIT 1;
