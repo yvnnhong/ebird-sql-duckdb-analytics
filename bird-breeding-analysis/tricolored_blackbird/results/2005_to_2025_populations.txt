@@ -1,0 +1,56 @@
+# TRICOLORED BLACKBIRD POPULATION TRENDS (2005-2025)
+## eBird Citizen Science Data Analysis
+
+```
+┌───────┬────────────────────┬──────────┬─────────────┐
+│ year  │ total_observations │ counties │ total_birds │
+├───────┼────────────────────┼──────────┼─────────────┤
+│  2005 │                427 │       43 │      123783 │
+│  2006 │                598 │       45 │       45864 │
+│  2007 │                686 │       50 │       46478 │
+│  2008 │                797 │       45 │       57259 │
+│  2009 │                970 │       49 │      123233 │
+│  2010 │               1361 │       50 │      125337 │
+│  2011 │               1922 │       51 │      141188 │
+│  2012 │               2386 │       51 │      200678 │
+│  2013 │               2787 │       51 │      139415 │
+│  2014 │               3350 │       50 │      326005 │
+│  2015 │               4124 │       53 │      385869 │
+│  2016 │               4175 │       53 │      590882 │
+│  2017 │               4674 │       53 │      679330 │
+│  2018 │               4876 │       50 │      387925 │
+│  2019 │               5228 │       52 │      533941 │
+│  2020 │               5140 │       53 │      450256 │
+│  2021 │               5104 │       52 │      410977 │
+│  2022 │               5862 │       55 │      473257 │
+│  2023 │               5637 │       52 │      341408 │
+│  2024 │               6159 │       54 │      399019 │
+│  2025 │                753 │       44 │       49908 │
+└───────┴────────────────────┴──────────┴─────────────┘
+```
+
+## KEY FINDINGS
+
+**PEAK YEARS:**
+- **2017**: 679,330 birds (highest count ever recorded in eBird)
+- **2016**: 590,882 birds  
+- **2019**: 533,941 birds
+
+** LOW POINTS:**
+- **2006**: 45,864 birds (lowest in dataset)
+- **2007**: 46,478 birds
+- **2025**: 49,908 birds (partial year)
+
+** CONTRADICTS SCIENTIFIC LITERATURE:**
+eBird data shows population GROWTH during 2014-2017 period when official surveys reported catastrophic 44% crash. This suggests:
+- eBird captures different populations than official surveys
+- Citizen science detected recovery missed by formal studies  
+- Geographic coverage differences between data sources
+
+** OBSERVER EFFORT:**
+- Steady increase from 427 observations (2005) to 6,159 (2024)
+- Geographic coverage expanded from 43 counties (2005) to 55 counties (2022)
+- 2025 data incomplete (only partial year)
+
+** POPULATION VOLATILITY:**
+Extreme year-to-year swings indicate highly unstable population dynamics, typical of species under severe environmental stress.
