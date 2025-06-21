@@ -5,6 +5,33 @@ Analysis of Yellow-billed Magpie breeding patterns using eBird data (2013-2025).
 
 ## Key Findings
 
+### **Climate Impact on Breeding & Observer Behavior**
+
+#### **Climate Classification Analysis** (2015-2025)
+- **Drought/Hot Years**: 2015, 2016, 2021, 2022 (4 years)
+- **Wet/Cool Years**: 2017, 2019, 2023 (3 years)
+- **Normal Years**: 2013, 2018, 2020, 2024, 2025 (5 years)
+
+#### **Observer Effort Patterns by Climate**
+| Climate Type | Unique Locations | Total Observations | Obs/Location | Success Rate |
+|--------------|------------------|-------------------|--------------|--------------|
+| **Drought/Hot** | 250 | 637 | 2.55 | 19.15% |
+| **Normal** | 123 | 307 | 2.50 | 21.50% |
+| **Wet/Cool** | 91 | 186 | 2.04 | 19.35% |
+
+#### **Climate Analysis Insights**
+**🔍 Observer Behavior > Bird Biology:**
+- **Drought years**: Highest observer effort (250 locations, 637 observations)
+- **Wet years**: Lowest observer effort (91 locations, 186 observations) 
+- **Consistent success rates**: 19-22% across all climate types
+- **2021 spike**: 460 observations during drought year (likely pandemic-related increased birding)
+
+**🌡️ Climate Stability:**
+Yellow-billed Magpie breeding success remains remarkably **stable across climate conditions** (19-22%), suggesting strong adaptation to California's variable climate patterns.
+
+**📊 Data Quality Finding:**
+Climate affects **citizen science data collection patterns** more than actual bird breeding success - drought years see increased observer participation and geographic coverage.
+
 ### **Seasonal Breeding Patterns**
 
 #### **Spring: Peak Breeding Season** (479 observations)
@@ -84,7 +111,10 @@ Analysis of Yellow-billed Magpie breeding patterns using eBird data (2013-2025).
 - **Limited urban adaptation** (only Sacramento classified as urban)
 
 **🌡️ Climate Adaptation:**
-California's mild winters allow extended breeding seasons, giving Yellow-billed Magpies competitive advantages over migratory species.
+- **Stable breeding success** across all climate conditions (19-22%)
+- California's mild winters allow extended breeding seasons
+- **Climate resilience** gives competitive advantages over migratory species
+- **Observer bias awareness**: Climate affects data collection more than bird biology
 
 **📊 Observer Detection:**
 Summer's low numbers likely reflect **post-breeding dispersal** rather than reduced activity - mobile family groups are harder to detect than stationary nests.
@@ -111,13 +141,16 @@ Summer's low numbers likely reflect **post-breeding dispersal** rather than redu
 | **Recent colonizations** | 14 counties |
 | **Average success rate** | 33.2% |
 | **Highest success rate** | 100% (Calaveras, Madera) |
+| **Climate stability** | 19-22% success across all climate types |
 
 ## Analysis Files
 - [`seasonal_breeding_patterns.sql`](seasonal_breeding_patterns.sql) - Seasonal analysis & breeding codes
 - [`geographic_distribution.sql`](geographic_distribution.sql) - County-level success rates & range expansion
+- [`climate_analysis.sql`](climate_analysis.sql) - Climate impact on breeding success & observer behavior
 - [`data_validation.sql`](data_validation.sql) - Quality checks & breeding code validation
 
 ## Results
 See detailed outputs in [`/results`](results/) folder:
 - [`seasonal_breeding_patterns.txt`](results/seasonal_breeding_patterns.txt)
 - [`geographic_distribution.txt`](results/geographic_distribution.txt)
+- [`climate_analysis.txt`](results/climate_analysis.txt)
