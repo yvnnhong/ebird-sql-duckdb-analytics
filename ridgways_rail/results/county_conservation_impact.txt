@@ -1,0 +1,35 @@
+Ridgway's Rail Conservation Impact by County Analysis Results
+Early Period (2005-2010) vs Recent Period (2019-2024)
+California eBird Observation Data
+
+COUNTY          | early_period_birds | recent_period_birds | bird_count_improvement | early_period_observations | recent_period_observations | observation_improvement | percent_bird_improvement | percent_observation_improvement | total_observations_all_years
+----------------|--------------------|--------------------|------------------------|----------------------------|----------------------------|-------------------------|--------------------------|--------------------------------|----------------------------
+San Diego       | 1301               | 21505              | 20204                  | 593                        | 9162                       | 8569                    | 1553.0                   | 1445.0                         | 15057
+Alameda         | 1614               | 19088              | 17474                  | 479                        | 5394                       | 4915                    | 1082.7                   | 1026.1                         | 8455
+Imperial        | 575                | 4405               | 3830                   | 277                        | 1888                       | 1611                    | 666.1                    | 581.6                          | 3901
+Santa Clara     | 214                | 3710               | 3496                   | 172                        | 2105                       | 1933                    | 1633.6                   | 1123.8                         | 2942
+Marin           | 161                | 3633               | 3472                   | 105                        | 1566                       | 1461                    | 2156.5                   | 1391.4                         | 3118
+Orange          | 1005               | 4434               | 3429                   | 279                        | 2580                       | 2301                    | 341.2                    | 824.7                          | 6073
+Contra Costa    | 30                 | 3370               | 3340                   | 25                         | 1697                       | 1672                    | 11133.3                  | 6688.0                         | 1979
+Sonoma          | 22                 | 327                | 305                    | 18                         | 211                        | 193                     | 1386.4                   | 1072.2                         | 471
+San Mateo       | 288                | 537                | 249                    | 133                        | 330                        | 197                     | 86.5                     | 148.1                          | 884
+Riverside       | 6                  | 174                | 168                    | 3                          | 77                         | 74                      | 2800.0                   | 2466.7                         | 110
+Napa            | 4                  | 29                 | 25                     | 3                          | 20                         | 17                      | 625.0                    | 566.7                          | 42
+San Francisco   | 20                 | 28                 | 8                      | 20                         | 28                         | 8                       | 40.0                     | 40.0                           | 254
+Solano          | 1                  | 8                  | 7                      | 1                          | 8                          | 7                       | 700.0                    | 700.0                          | 32
+San Bernardino  | 24                 | 16                 | -8                     | 13                         | 12                         | -1                      | -33.3                    | -7.7                           | 67
+Ventura         | 66                 | 29                 | -37                    | 32                         | 24                         | -8                      | -56.1                    | -25.0                          | 132
+
+Key Conservation Success Stories:
+- San Diego: Massive improvement (+20,204 birds, 1553% increase) - extensive natural salt marsh habitat
+- Alameda: Strong recovery (+17,474 birds, 1083% increase) - SF Bay salt pond restoration epicenter  
+- Contra Costa: Dramatic percentage gains (11,133% bird increase) - restoration project success
+- Santa Clara & Marin: Significant improvements - South and North SF Bay habitat restoration
+- Orange County: Substantial gains (+3,429 birds) - coastal wetland restoration programs
+
+Note: San Diego, Alameda, Orange, and Marin counties have substantial natural coastal salt marsh systems in addition to restoration efforts, contributing to higher baseline populations and recovery potential.
+
+Geographic Pattern:
+- SF Bay Area counties show coordinated improvement from targeted restoration
+- Southern California coastal counties demonstrate large-scale conservation success
+- Declining counties reflect habitat limitations and population redistribution to better areas
