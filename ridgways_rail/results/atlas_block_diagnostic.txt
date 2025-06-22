@@ -17,4 +17,4 @@ systems should be used for range expansion studies.
 
 Note: Atlas Blocks are typically populated in specialized breeding bird survey datasets 
 rather than general eBird citizen science data. For fine-scale geographic analysis, 
-refer to geographic_expansion_localities.sql which uses coordinate grids and locality data.
+refer to lat_long_geo_expansion.sql which uses coordinate grids and locality data.
