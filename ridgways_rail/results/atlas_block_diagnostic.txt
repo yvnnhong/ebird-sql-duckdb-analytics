@@ -1,0 +1,20 @@
+Atlas Block Data Availability Diagnostic Results
+Ridgway's Rail eBird Data (2005-2025) - California
+
+total_ridgways_rail_records | records_with_atlas_block | records_with_valid_atlas_block | unique_atlas_blocks | sample_atlas_block_1 | sample_atlas_block_2 | percent_with_atlas_blocks
+----------------------------|--------------------------|--------------------------------|---------------------|----------------------|----------------------|--------------------------
+44248                       | 0                        | 0                              | 0                   | NULL                 | NULL                 | 0.0
+
+Analysis Summary:
+- Total Ridgway's Rail records analyzed: 44,248
+- Records containing Atlas Block data: 0 (0.0%)
+- Unique Atlas Blocks identified: 0
+
+Conclusion:
+Atlas Block data is not available in this eBird dataset for Ridgway's Rail observations. 
+Alternative geographic analysis methods using locality IDs and coordinate-based grid 
+systems should be used for range expansion studies.
+
+Note: Atlas Blocks are typically populated in specialized breeding bird survey datasets 
+rather than general eBird citizen science data. For fine-scale geographic analysis, 
+refer to geographic_expansion_localities.sql which uses coordinate grids and locality data.
