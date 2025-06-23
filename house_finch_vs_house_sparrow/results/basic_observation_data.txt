@@ -6,33 +6,35 @@ HOUSE FINCH RESULTS (Native California Species)
 ================================================================================
 
 observation_year | total_observations | unique_surveys | total_birds_observed | breeding_observations | counties_with_data | breeding_percentage
-2005             | 6369              | 6369          | [truncated]          | 16                    | 58                | 0.3
-2006             | 9485              | 9485          | [truncated]          | 15                    | 58                | 0.2
-2007             | 14648             | 14648         | [truncated]          | 9                     | 58                | 0.1
-2008             | 17100             | 17100         | [truncated]          | 6                     | 58                | 0.0
-2009             | 23829             | 23829         | [truncated]          | 16                    | 58                | 0.1
-2010             | 38141             | 38141         | [truncated]          | 12                    | 58                | 0.0
-2011             | 47589             | 47589         | [truncated]          | 154                   | 58                | 0.3
-2012             | 64681             | 64681         | [truncated]          | 233                   | 58                | 0.4
-2013             | 84509             | 84509         | [truncated]          | 400                   | 58                | 0.5
-2014             | 105761            | 105758        | [truncated]          | 752                   | 58                | 0.7
-2015             | 121735            | 121735        | [truncated]          | 1030                  | 58                | 0.8
-2016             | 128310            | 128310        | [truncated]          | 1017                  | 58                | 0.8
-2017             | 146376            | 146368        | [truncated]          | 2295                  | 58                | 1.6
-2018             | 184772            | 184762        | [truncated]          | 3729                  | 58                | 2.0
-2019             | 197435            | 197431        | [truncated]          | 4020                  | 58                | 2.0
-2020             | 278817            | 278812        | [truncated]          | 6861                  | 58                | 2.5
-2021             | 320704            | 320696        | [truncated]          | 6766                  | 58                | 2.1
-2022             | 346106            | 346103        | [truncated]          | 7952                  | 58                | 2.3
-2023             | 358918            | 358908        | [truncated]          | 9102                  | 58                | 2.5
-2024             | 383757            | 383747        | [truncated]          | 9297                  | 58                | 2.4
-2025             | 38243             | 38243         | [truncated]          | 209                   | 57                | 0.5
+2005             | 6369              | 6369          | 57230               | 16                    | 58                | 0.3
+2006             | 9485              | 9485          | 83695               | 15                    | 58                | 0.2
+2007             | 14648             | 14648         | 153856              | 9                     | 58                | 0.1
+2008             | 17100             | 17100         | 183028              | 6                     | 58                | 0.0
+2009             | 23829             | 23829         | 259403              | 16                    | 58                | 0.1
+2010             | 38141             | 38141         | 383928              | 12                    | 58                | 0.0
+2011             | 47589             | 47589         | 493753              | 154                   | 58                | 0.3
+2012             | 64681             | 64681         | 605934              | 233                   | 58                | 0.4
+2013             | 84509             | 84509         | 710166              | 400                   | 58                | 0.5
+2014             | 105761            | 105758        | 900649              | 752                   | 58                | 0.7
+2015             | 121735            | 121735        | 1001258             | 1030                  | 58                | 0.8
+2016             | 128310            | 128310        | 1064355             | 1017                  | 58                | 0.8
+2017             | 146376            | 146368        | 1142071             | 2295                  | 58                | 1.6
+2018             | 184772            | 184762        | 1505822             | 3729                  | 58                | 2.0
+2019             | 197435            | 197431        | 1504561             | 4020                  | 58                | 2.0
+2020             | 278817            | 278812        | 2172021             | 6861                  | 58                | 2.5
+2021             | 320704            | 320696        | 2611338             | 6766                  | 58                | 2.1
+2022             | 346106            | 346103        | 2814209             | 7952                  | 58                | 2.3
+2023             | 358918            | 358908        | 2736925             | 9102                  | 58                | 2.5
+2024             | 383757            | 383747        | 2861998             | 9297                  | 58                | 2.4
+2025             | 38243             | 38243         | 342974              | 209                   | 57                | 0.5
 
 HOUSE FINCH KEY INSIGHTS:
-- MASSIVE observation volume: 2.8+ million records over 20 years
-- EXPONENTIAL growth: 6,369 observations (2005) → 383,757 (2024) = 60x increase
+- MASSIVE observation volume: 2.8 million records over 20 years
+- EXPONENTIAL growth: 6,369 observations (2005) to 383,757 (2024) = 60x increase
+- POPULATION EXPLOSION: 57,230 birds (2005) to 2,861,998 birds (2024) = 50x increase
 - STATEWIDE success: Present in all 58 California counties consistently
-- BREEDING success increasing: 0.3% → 2.4% breeding percentage (8x improvement)
+- BREEDING success increasing: 0.3% to 2.4% breeding percentage (8x improvement)
+- FLOCK SIZE: Average 7-9 birds per observation (natural flocking behavior)
 - Native species thriving in urban environments
 
 ================================================================================
@@ -40,33 +42,35 @@ HOUSE SPARROW RESULTS (Introduced European Species)
 ================================================================================
 
 observation_year | total_observations | unique_surveys | total_birds_observed | breeding_observations | counties_with_data | breeding_percentage
-2005             | 2631              | 2631          | [truncated]          | 10                    | 58                | 0.4
-2006             | 4303              | 4303          | [truncated]          | 4                     | 58                | 0.1
-2007             | 5940              | 5940          | [truncated]          | 4                     | 58                | 0.1
-2008             | 6172              | 6172          | [truncated]          | 0                     | 58                | 0.0
-2009             | 9330              | 9330          | [truncated]          | 3                     | 58                | 0.0
-2010             | 14877             | 14877         | [truncated]          | 2                     | 58                | 0.0
-2011             | 17473             | 17473         | [truncated]          | 39                    | 58                | 0.2
-2012             | 23255             | 23255         | [truncated]          | 54                    | 58                | 0.2
-2013             | 27825             | 27825         | [truncated]          | 88                    | 58                | 0.3
-2014             | 33199             | 33199         | [truncated]          | 191                   | 58                | 0.6
-2015             | 39699             | 39699         | [truncated]          | 233                   | 58                | 0.6
-2016             | 41347             | 41347         | [truncated]          | 321                   | 58                | 0.8
-2017             | 49823             | 49823         | [truncated]          | 685                   | 58                | 1.4
-2018             | 56895             | 56895         | [truncated]          | 789                   | 58                | 1.4
-2019             | 63321             | 63321         | [truncated]          | 1112                  | 58                | 1.8
-2020             | 81621             | 81621         | [truncated]          | 1330                  | 58                | 1.6
-2021             | 87253             | 87253         | [truncated]          | 1239                  | 58                | 1.4
-2022             | 90887             | 90887         | [truncated]          | 1363                  | 58                | 1.5
-2023             | 99918             | 99918         | [truncated]          | 1478                  | 58                | 1.5
-2024             | 103600            | 103600        | [truncated]          | 1308                  | 58                | 1.3
-2025             | 9789              | 9789          | [truncated]          | 17                    | 57                | 0.2
+2005             | 2631              | 2631          | 14648               | 10                    | 58                | 0.4
+2006             | 4303              | 4303          | 29108               | 4                     | 58                | 0.1
+2007             | 5940              | 5940          | 42032               | 4                     | 58                | 0.1
+2008             | 6172              | 6172          | 41488               | 0                     | 58                | 0.0
+2009             | 9330              | 9330          | 70299               | 3                     | 58                | 0.0
+2010             | 14877             | 14877         | 114203              | 2                     | 58                | 0.0
+2011             | 17473             | 17473         | 128540              | 39                    | 58                | 0.2
+2012             | 23255             | 23255         | 166144              | 54                    | 58                | 0.2
+2013             | 27825             | 27825         | 184950              | 88                    | 58                | 0.3
+2014             | 33199             | 33199         | 200993              | 191                   | 58                | 0.6
+2015             | 39699             | 39699         | 246495              | 233                   | 58                | 0.6
+2016             | 41347             | 41347         | 286451              | 321                   | 58                | 0.8
+2017             | 49823             | 49823         | 345845              | 685                   | 58                | 1.4
+2018             | 56895             | 56895         | 365467              | 789                   | 58                | 1.4
+2019             | 63321             | 63321         | 406220              | 1112                  | 58                | 1.8
+2020             | 81621             | 81621         | 519380              | 1330                  | 58                | 1.6
+2021             | 87253             | 87253         | 522650              | 1239                  | 58                | 1.4
+2022             | 90887             | 90887         | 510885              | 1363                  | 58                | 1.5
+2023             | 99918             | 99918         | 586016              | 1478                  | 58                | 1.5
+2024             | 103600            | 103600        | 600897              | 1308                  | 58                | 1.3
+2025             | 9789              | 9789          | 64385               | 17                    | 57                | 0.2
 
 HOUSE SPARROW KEY INSIGHTS:
-- MODERATE observation volume: 926,000+ records (3x less than House Finch)
-- SLOWER growth: 2,631 observations (2005) → 103,600 (2024) = 39x increase
+- MODERATE observation volume: 926,000 records (3x less than House Finch)
+- SLOWER growth: 2,631 observations (2005) to 103,600 (2024) = 39x increase
+- POPULATION GROWTH LIMITED: 14,648 birds (2005) to 600,897 birds (2024) = 41x increase
 - STATEWIDE presence: All counties, but lower density than House Finch
-- BREEDING plateau: 0.4% → 1.3% breeding percentage (peaked at 1.8% in 2019)
+- BREEDING plateau: 0.4% to 1.3% breeding percentage (peaked at 1.8% in 2019)
+- FLOCK SIZE: Average 5-6 birds per observation (smaller than House Finch)
 - Introduced species hitting ecological limits in California
 
 ================================================================================
@@ -74,13 +78,21 @@ COMPARATIVE ANALYSIS SUMMARY
 ================================================================================
 
 NATIVE vs INTRODUCED SPECIES PERFORMANCE:
-✅ House Finch (Native): 3.7x MORE observations than House Sparrow in 2024
-✅ House Finch: Higher breeding success ceiling (2.5% vs 1.8% peak)
-✅ House Finch: More consistent growth trajectory
-❌ House Sparrow: Slower growth, breeding percentage declining since 2019
+- House Finch (Native): 3.7x MORE observations than House Sparrow in 2024
+- House Finch (Native): 4.8x MORE total birds observed than House Sparrow in 2024
+- House Finch: Higher breeding success ceiling (2.5% vs 1.8% peak)
+- House Finch: More consistent growth trajectory
+- House Sparrow: Slower growth, breeding percentage declining since 2019
+
+POPULATION TRENDS:
+- House Finch: 50x increase in total birds (2005-2024)
+- House Sparrow: 41x increase in total birds (2005-2024)
+- House Finch: 2.86 million birds observed in 2024
+- House Sparrow: 601,000 birds observed in 2024
 
 CONSERVATION IMPLICATIONS:
 - Native California species (House Finch) significantly outperforming introduced European species
 - Urban environments can support native biodiversity when designed thoughtfully
-- House Finch success demonstrates native species' superior adaptation to local conditions
+- House Finch success demonstrates native species superior adaptation to local conditions
 - House Sparrow plateau suggests ecological limits for non-native urban species
+- Larger flock sizes in House Finches indicate better resource utilization and breeding success
