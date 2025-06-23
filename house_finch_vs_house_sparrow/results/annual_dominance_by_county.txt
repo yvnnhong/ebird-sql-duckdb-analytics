@@ -1,0 +1,113 @@
+HOUSE FINCH VS HOUSE SPARROW: Annual Species Dominance by County
+California 2005-2025
+
+================================================================================
+IMPORTANT NOTE: INCOMPLETE RESULTS - BATCH PROCESSING REQUIRED
+================================================================================
+
+This file contains PARTIAL results from the annual dominance analysis. The query 
+processed all 1,218 rows (58 counties × ~21 years) but the display system only 
+shows 40 rows due to output limitations. Complete analysis requires batch 
+processing by county groups to see all data.
+
+CURRENT DATA SHOWS: First county (Alameda) and last county (Yuba) year-by-year trends
+MISSING DATA: 56 counties in between including Los Angeles, San Diego, Orange, 
+San Francisco, Plumas, Modoc, and other key counties
+
+================================================================================
+IMPORTANT DATA LIMITATION: CALCULATED house_sparrow_total VALUES
+================================================================================
+
+**WARNING**: The house_sparrow_total values shown in this file are CALCULATED 
+estimates, not actual query results. The original query output did not explicitly 
+show the house_sparrow_total column due to display truncation.
+
+These values were derived by reverse-engineering from:
+- house_finch_total (actual from query)
+- finch_percentage_double (actual from query) 
+- sparrow_percentage_double (actual from query)
+
+Formula used: house_sparrow_total = (house_finch_total ÷ finch_percentage) - house_finch_total
+
+For accurate house_sparrow_total values, the actual query needs to be re-run 
+with full column display or exported to see the complete raw data.
+
+================================================================================
+PARTIAL RESULTS (40 of 1,218 rows shown)
+================================================================================
+
+county  | observation_year | house_finch_total | house_sparrow_total | species_dominance   | finch_percentage | sparrow_percentage
+--------|------------------|-------------------|---------------------|--------------------|-----------------|--------------------|
+Alameda | 2005             | 916              | 274                 | House_Finch_Dominant| 76.97           | 23.03              |
+Alameda | 2006             | 1065             | 307                 | House_Finch_Dominant| 77.68           | 22.32              |
+Alameda | 2007             | 2807             | 561                 | House_Finch_Dominant| 83.34           | 16.66              |
+Alameda | 2008             | 11604            | 667                 | House_Finch_Dominant| 94.57           | 5.43               |
+Alameda | 2009             | 9801             | 652                 | House_Finch_Dominant| 93.74           | 6.26               |
+Alameda | 2010             | 10311            | 1521                | House_Finch_Dominant| 87.15           | 12.85              |
+Alameda | 2011             | 14419            | 1698                | House_Finch_Dominant| 89.45           | 10.55              |
+Alameda | 2012             | 16646            | 2868                | House_Finch_Dominant| 85.31           | 14.69              |
+Alameda | 2013             | 21383            | 2958                | House_Finch_Dominant| 87.84           | 12.16              |
+Alameda | 2014             | 28828            | 4415                | House_Finch_Dominant| 86.71           | 13.29              |
+Alameda | 2015             | 35146            | 4232                | House_Finch_Dominant| 89.25           | 10.75              |
+Alameda | 2016             | 29166            | 3470                | House_Finch_Dominant| 89.37           | 10.63              |
+Alameda | 2017             | 32637            | 5075                | House_Finch_Dominant| 86.54           | 13.46              |
+Alameda | 2018             | 49944            | 6046                | House_Finch_Dominant| 89.19           | 10.81              |
+Alameda | 2019             | 54472            | 7541                | House_Finch_Dominant| 87.84           | 12.16              |
+Alameda | 2020             | 80681            | 10519               | House_Finch_Dominant| 88.46           | 11.54              |
+Alameda | 2021             | 101514           | 8897                | House_Finch_Dominant| 91.95           | 8.05               |
+Alameda | 2022             | 116078           | 9712                | House_Finch_Dominant| 92.28           | 7.72               |
+Alameda | 2023             | 125466           | 11946               | House_Finch_Dominant| 91.31           | 8.69               |
+Alameda | 2024             | 143162           | 17664               | House_Finch_Dominant| 89.03           | 10.97              |
+...     | ...              | ...              | ...                 | ...                | ...             | ...                |
+[56 COUNTIES MISSING FROM DISPLAY]
+...     | ...              | ...              | ...                 | ...                | ...             | ...                |
+Yuba    | 2006             | 22               | 22                  | Roughly_Equal      | 50.0            | 50.0               |
+Yuba    | 2007             | 84               | 48                  | Roughly_Equal      | 63.64           | 36.36              |
+Yuba    | 2008             | 77               | 1852                | House_Sparrow_Domin| 3.99            | 96.01              |
+Yuba    | 2009             | 443              | 223                 | Roughly_Equal      | 66.52           | 33.48              |
+Yuba    | 2010             | 284              | 231                 | Roughly_Equal      | 55.15           | 44.85              |
+Yuba    | 2011             | 250              | 285                 | Roughly_Equal      | 46.73           | 53.27              |
+Yuba    | 2012             | 330              | 224                 | Roughly_Equal      | 59.57           | 40.43              |
+Yuba    | 2013             | 511              | 146                 | House_Finch_Dominant| 77.78           | 22.22              |
+Yuba    | 2014             | 1131             | 405                 | House_Finch_Dominant| 73.63           | 26.37              |
+Yuba    | 2015             | 1802             | 916                 | Roughly_Equal      | 66.32           | 33.68              |
+Yuba    | 2016             | 1113             | 482                 | House_Finch_Dominant| 69.74           | 30.26              |
+Yuba    | 2017             | 925              | 831                 | Roughly_Equal      | 52.65           | 47.35              |
+Yuba    | 2018             | 990              | 1392                | Roughly_Equal      | 41.58           | 58.42              |
+Yuba    | 2019             | 1554             | 1370                | Roughly_Equal      | 53.15           | 46.85              |
+Yuba    | 2020             | 2709             | 1745                | Roughly_Equal      | 60.84           | 39.16              |
+Yuba    | 2021             | 2442             | 1950                | Roughly_Equal      | 55.56           | 44.44              |
+Yuba    | 2022             | 2040             | 1042                | Roughly_Equal      | 66.21           | 33.79              |
+Yuba    | 2023             | 1337             | 850                 | Roughly_Equal      | 61.11           | 38.89              |
+Yuba    | 2024             | 1883             | 717                 | House_Finch_Dominant| 72.42           | 27.58              |
+Yuba    | 2025             | 25               | 87                  | House_Sparrow_Domin| 22.32           | 77.68              |
+
+================================================================================
+KEY PATTERNS FROM VISIBLE DATA
+================================================================================
+
+ALAMEDA COUNTY (Urban Bay Area):
+- Consistent House Finch dominance throughout 2005-2024
+- Peak dominance: 94.57% House Finch in 2008
+- Recent trend: Stable 89-92% House Finch dominance
+- House Sparrow population: Steady but minor presence
+
+YUBA COUNTY (Rural Agricultural):
+- True competitive battleground with species flips
+- 2008: Dramatic House Sparrow surge (96% dominance)
+- 2013-2014: House Finch takeover period
+- 2017-2019: House Sparrow resurgence
+- 2024: House Finch trending back to dominance
+
+================================================================================
+NEXT STEPS FOR COMPLETE ANALYSIS
+================================================================================
+
+Need to run batch queries for:
+1. Major Urban Counties: Los Angeles, San Diego, Orange, Santa Clara, San Francisco
+2. House Sparrow Strongholds: Plumas, Modoc, Lassen, Del Norte, Sierra
+3. Competitive Counties: Kern, Glenn, Colusa, Lake
+4. Rural/Mountain Counties: Fresno, Tulare, Imperial, Inyo, Mono
+
+Total dataset contains 1,218 rows showing year-by-year species competition 
+across all 58 California counties from 2005-2025.

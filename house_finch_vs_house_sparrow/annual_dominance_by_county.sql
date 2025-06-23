@@ -1,5 +1,3 @@
--- should show all 1,218 lines -- FIX THIS LATER TO DO IT IN BATCHES 
-
 -- House Finch vs House Sparrow: Geographic Distribution by County and Year
 -- California 2005-2025
 -- 
