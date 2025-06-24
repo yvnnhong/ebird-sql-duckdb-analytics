@@ -1,6 +1,13 @@
 # Tell GitHub all .sql files are SQL language
 *.sql linguist-language=SQL
 
-# ignore files/folders that might confuse detection, like docs or markdown
+# Ignore all files in any folder named docs (case insensitive)
 docs/** linguist-vendored=true
-*.md linguist-vendored=true
+Docs/** linguist-vendored=true
+DOCS/** linguist-vendored=true
+
+# Ignore all README files anywhere (README.md, README.txt, README, etc.)
+**/README* linguist-vendored=true
+
+# Ignore all txt files anywhere
+*.txt linguist-vendored=true
