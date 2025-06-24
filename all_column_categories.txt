@@ -1,0 +1,137 @@
+eBird Dataset Column Categories Reference
+=========================================
+
+Dataset: 47GB eBird observation data from Cornell Lab API
+Platform: DuckDB SQL analysis
+Geographic Scope: California statewide
+Temporal Coverage: 2005-2025
+
+COMPLETE COLUMN SCHEMA (52 total columns)
+==========================================
+
+TAXONOMIC IDENTIFICATION
+-------------------------
+GLOBAL UNIQUE IDENTIFIER     - Unique record identifier across eBird database
+LAST EDITED DATE            - Most recent modification timestamp
+TAXONOMIC ORDER             - Taxonomic sequence number for species ordering
+CATEGORY                    - Taxonomic category (species, subspecies, hybrid, etc.)
+TAXON CONCEPT ID           - Stable taxonomic identifier
+COMMON NAME                - Standard English species name
+SCIENTIFIC NAME            - Binomial scientific nomenclature
+SUBSPECIES COMMON NAME     - Subspecies common name (if applicable)
+SUBSPECIES SCIENTIFIC NAME - Subspecies scientific name (if applicable)
+EXOTIC CODE               - Indicates non-native species status
+
+OBSERVATION DETAILS
+-------------------
+OBSERVATION COUNT         - Number of individuals observed (or 'X' for present)
+BREEDING CODE            - Standardized breeding behavior codes
+BREEDING CATEGORY        - Breeding status classification
+BEHAVIOR CODE           - Specific behavior observations
+AGE/SEX                 - Age and sex information (if determinable)
+
+GEOGRAPHIC INFORMATION
+----------------------
+COUNTRY                 - Country of observation
+COUNTRY CODE           - ISO country code
+STATE                  - State/province name
+STATE CODE             - State/province abbreviation
+COUNTY                 - County/administrative division
+COUNTY CODE            - County identifier code
+IBA CODE               - Important Bird Area designation
+BCR CODE               - Bird Conservation Region code
+USFWS CODE             - US Fish & Wildlife Service region code
+ATLAS BLOCK            - Breeding bird atlas grid reference
+LOCALITY               - Specific location name
+LOCALITY ID            - Unique location identifier
+LOCALITY TYPE          - Classification of location type
+LATITUDE               - Decimal latitude coordinates
+LONGITUDE              - Decimal longitude coordinates
+
+TEMPORAL INFORMATION
+--------------------
+OBSERVATION DATE           - Date of observation (YYYY-MM-DD)
+TIME OBSERVATIONS STARTED  - Start time of observation period
+
+OBSERVER AND SURVEY METADATA
+-----------------------------
+OBSERVER ID               - Unique observer identifier
+OBSERVER ORCID ID        - ORCID researcher identifier (if available)
+SAMPLING EVENT IDENTIFIER - Unique checklist identifier
+OBSERVATION TYPE         - Type of observation record
+PROTOCOL NAME           - Survey protocol used
+PROTOCOL CODE           - Standardized protocol identifier
+PROJECT NAMES           - Associated eBird projects
+PROJECT IDENTIFIERS     - Project ID numbers
+
+EFFORT METRICS
+--------------
+DURATION MINUTES        - Time spent on observation/survey
+EFFORT DISTANCE KM      - Distance traveled during survey
+EFFORT AREA HA         - Area covered during survey (hectares)
+NUMBER OBSERVERS       - Number of people in survey party
+ALL SPECIES REPORTED   - Whether complete species list reported
+
+DATA QUALITY AND VALIDATION
+----------------------------
+GROUP IDENTIFIER       - Group survey identifier
+HAS MEDIA             - Indicates associated photos/audio
+APPROVED              - Record approval status
+REVIEWED              - Review status by local experts
+REASON                - Notes on approval/rejection reasons
+
+SUPPLEMENTARY INFORMATION
+-------------------------
+CHECKLIST COMMENTS     - General observations about the survey
+SPECIES COMMENTS       - Specific notes about species observation
+
+COLUMN USAGE IN PROJECT ANALYSES
+=================================
+
+CORE ANALYSIS COLUMNS
+---------------------
+- COMMON NAME: Primary species identification
+- SCIENTIFIC NAME: Taxonomic validation
+- OBSERVATION COUNT: Population metrics
+- OBSERVATION DATE: Temporal trend analysis
+- BREEDING CODE: Reproductive success assessment
+- STATE/COUNTY: Geographic distribution analysis
+- LATITUDE/LONGITUDE: Fine-scale spatial analysis
+
+QUALITY CONTROL COLUMNS
+-----------------------
+- APPROVED: Data validation filtering
+- PROTOCOL NAME: Survey standardization
+- DURATION MINUTES: Observer effort assessment
+- ALL SPECIES REPORTED: Completeness validation
+
+SPECIALIZED ANALYSIS COLUMNS
+----------------------------
+- BREEDING CATEGORY: Seasonal pattern analysis
+- AGE/SEX: Demographic structure assessment
+- ATLAS BLOCK: Grid-based range analysis (when available)
+- PROJECT NAMES: Citizen science program evaluation
+
+DATA PROCESSING NOTES
+=====================
+
+MISSING DATA HANDLING
+---------------------
+- ATLAS BLOCK: Not populated in eBird citizen science data
+- SUBSPECIES fields: Sparse population for most species
+- EFFORT metrics: Variable completion across protocols
+- BREEDING codes: Only present during breeding season observations
+
+STANDARDIZATION REQUIREMENTS
+-----------------------------
+- Date formats: Consistent YYYY-MM-DD parsing required
+- Coordinate validation: Latitude/longitude bounds checking
+- Count standardization: 'X' values treated as single individuals
+- Breeding code filtering: Exclude non-breeding behaviors (F, H, S, P)
+
+ANALYSIS OPTIMIZATION
+---------------------
+- Large file processing: max_line_size=25000000 parameter required
+- Error handling: ignore_errors=true for malformed records
+- Memory management: Process in chunks for complex queries
+- Index considerations: County, date, and species name most frequently filtered
